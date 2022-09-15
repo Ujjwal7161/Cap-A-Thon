@@ -4,6 +4,7 @@ import {FaBars, FaTimes} from 'react-icons/fa'
 import './Navbar.css'
 
 
+
 const Navbar = () => {
 const [click, setClick] = useState (false)
 
@@ -30,10 +31,10 @@ const handleClick = () => setClick(!click)
                         <a href = '#demo' >Tours</a>
                     </li>
                     <li className='nav-item'>
-                        <a href = 'form.html' >Locations</a>
+                        <a href = 'form.html' >My Appointments</a>
                     </li>
                     <li className='nav-item'>
-                        <a href = 'form.html' >Schedule a Date</a>
+                        <a href = 'scheduleF.html' >Schedule an Appointment</a>
                     </li>
                 </ul>
             </nav>

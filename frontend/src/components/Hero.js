@@ -8,9 +8,9 @@ const Hero = () => {
                 <p>1-800-123-1234</p>
                 <p>MOTO GOES HERE</p>
                 <p>Sub Moto Goes Here</p>
-                <button href = '/' className = 'button'>
-                    Free Consultation
-                </button>
+                <a href = 'scheduleF.html' class = 'button'>
+                    Make an Appointment
+                </a>
             </div>
         </div>
     )
